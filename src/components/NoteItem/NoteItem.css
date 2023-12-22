@@ -1,0 +1,19 @@
+td {
+    border-collapse: collapse; /* убирает границы между ячейками таблицы!!!!*/
+    padding: 1rem;
+    text-align: left;
+}
+td:first-child {
+    text-align: center;
+}
+
+td i {
+    font-size: 20px;
+    color: #937264;
+}
+
+td.btn__group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

@@ -1,0 +1,73 @@
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+
+.modal__content {
+    background-color: #F7F6F3; 
+    padding: 1.55rem;
+    border-radius: .8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 100%;
+    z-index: 1001; 
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal__content label {
+    display: block;
+    margin-top: 10px;
+}
+
+.modal__content input,
+.modal__content textarea,
+.modal__content select,
+.modal__content button {
+    width: 100%;
+    padding: 10px;
+    margin: 0.75rem 0 0.75rem 0;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    border: 0.5px solid #0000002e;
+    transition: all 0.4s ease;
+}
+
+.modal__content input:focus,
+.modal__content textarea:focus,
+.modal__content select:focus {
+    outline: none; /* Убираем стандартный контур при фокусе */
+    border: 1px solid #937264; /* Пример стиля для выделения фокуса */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); /* Пример тени для выделения фокуса */
+}
+
+.modal__content h2 {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #0000002e;
+}
+
+.modal__content button {
+    background-color: #937264; 
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+{
+  "notes": [
+    {
+      "id": 5,
+      "name": "Shopping",
+      "createdTime": "May 9, 2023",
+      "description": "I’m gonna have a dentist appointment on the 2/5/2022",
+      "category": "task",
+      "archived": false
+    },
+    {
+      "id": 6,
+      "name": "Shopping",
+      "createdTime": "May 9, 2023",
+      "description": "I’m gonna have a dentist appointment on the 3/5/2022",
+      "category": "task",
+      "archived": false
+    },
+    {
+      "id": 7,
+      "name": "Shopping",
+      "createdTime": "May 9, 2023",
+      "description": "I’m gonna have a dentist appointment on the 3/5/2022",
+      "category": "task",
+      "archived": false
+    },
+    {
+      "id": "eecd9f53-60bc-4120-b4f5-e93434b01c13",
+      "name": "наташа",
+      "description": "лох",
+      "category": "Idea",
+      "createdTime": "December 22, 2023"
+    }
+  ],
+  "filters": [
+    "all",
+    "archived"
+  ]
+}
